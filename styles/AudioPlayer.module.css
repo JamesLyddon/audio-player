@@ -49,6 +49,7 @@
 .duration {
   font-family: monospace;
   font-size: 20px;
+  margin: 0.3rem;
 }
 
 .currentTime {
@@ -57,7 +58,7 @@
 
 .progressBar {
   --bar-bg: #f7cac9;
-  --seek-before-width: 100px;
+  --seek-before-width: 0;
   --seek-before-color: #e15d44;
   --knobby: #34568b;
   --selectedKnobby: #98b4d4;
